@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flyme账号 - 登录</title>
+    <link rel="stylesheet" href="css/login.min.css">
+    <!-- <script src = "js/startMove.js"></script> -->
+    <script type = "text/javascript" src = "js/require.js" async = "true" defer data-main = "js/main"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <div id = "header">
+        <a href="index.html" target = "_blank">
+            <i class = "meizulogo"></i>
+        </a>
+    </div>
+    <!-- banner -->
+    <div id = "banner-box">
+
+        <form id = "mainForm" action="">
+            <div id = "transferField" class = "pic1">
+                <a href=""></a>
+            </div>
+
+            <div class = "tab-title">
+                <a id = "toAccountLogin" href="register.html">账号登录</a>
+                <span class = "register-line"></span>
+                <a id = "toVCodeLogin" href="login.html">验证码登录</a>
+            </div>
+            <div class = "error1">
+                <span>手机号码格式非法</span>
+                <a href = "#" id = "off1">X</a>
+            </div>
+            <div class = "error2">
+                <span>该手机号尚未注册，<a href="" class = "span">立即注册</a></span>
+                <a href = "#" id = "off2">X</a>
+            </div>
+
+            <div id = "cycode-box">
+                <div class = "input1">
+                    <span class = "cycode-selected">
+                    <input id = "cycode" type="text" value = "+86"  readonly="readonly"/>
+                    <i class = "arrow-down"></i>
+                    </span>
+                    <input id = "phone" type="text" name = "phone" maxlength = "20" placeholder = "手机号码" />
+                </div>
+
+                <div id = "cycode-container">
+                    <div class = "country-code">
+                        <div class = "container">
+                            <div class = "head">常用</div>
+                            <ul>
+                                <li data-code = "+86" data-brief = "CN">
+                                    <span class = "record-country">中国</span>
+                                    <span class = "record-code">+86</span>
+                                </li>
+                                <li data-code = "+886" data-brief = "TW">
+                                    <span class = "record-country">中国台湾</span>
+                                    <span class = "record-code">+886</span>
+                                </li>
+                                <li data-code = "+852" data-brief = "HK">
+                                    <span class = "record-country">中国香港</span>
+                                    <span class = "record-code">+852</span>
+                                </li>
+                                <li data-code = "+55" data-brief = "Brizil">
+                                    <span class = "record-country">Brizil</span>
+                                    <span class = "record-code">+55</span>
+                                </li>
+                                <li data-code = "+91" data-brief = "India">
+                                    <span class = "record-country">India</span>
+                                    <span class = "record-code">+91</span>
+                                </li>
+                                <li data-code = "+62" data-brief = "Indonesia">
+                                    <span class = "record-country">Indonesia</span>
+                                    <span class = "record-code">+62</span>
+                                </li>
+                                <li data-code = "+86" data-brief = "CN">
+                                    <span class = "record-country">中国</span>
+                                    <span class = "record-code">+86</span>
+                                </li>
+                                <li data-code = "+86" data-brief = "CN">
+                                    <span class = "record-country">中国</span>
+                                    <span class = "record-code">+86</span>
+                                </li>
+                                <li data-code = "+86" data-brief = "CN">
+                                    <span class = "record-country">中国</span>
+                                    <span class = "record-code">+86</span>
+                                </li>
+                                <li data-code = "+86" data-brief = "CN">
+                                    <span class = "record-country">中国</span>
+                                    <span class = "record-code">+86</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class = "input2">
+                    <input id = "code" type="text" name = "code" maxlength = "20" placeholder = "验证码" />
+                    <div id = "getcode">获取验证码</div>
+                    </span>
+                </div>
+                <input id = "submit" type="submit" value = "登录"/>
+                <div class = "href">
+                    <a href="register.html">注册</a>
+                    <a href="">忘记密码?</a>
+                </div>
+            </div>
+            <div id = "scan">
+                <span>扫描安全登录</span>
+                <img src="images/scan.jpg" alt="">
+                <p>请使用最新Flyme系统相机扫码功能，扫码登录</p>
+            </div>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <div id = "foot">
+        <div class = "top">
+            <ul>
+            <li><a href="">关于魅族</a></li>
+            <li><a href="">工作机会</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">法律声明</a></li>
+            <li><a href="">常见问题</a></li>
+            <li><a class = "last" href="">简体中文</a></li>
+            </ul>
+            <div class = "language">
+                <a href="">简体中文</a>
+                <a href="">English</a>
+            </div>
+            <div class = "service">
+                <span>客服热线</span>
+                <span>400-788-3333</span>
+                <a href="">在线客服</a>
+            </div>
+            <div class = "tecent">
+                <a href=""></a>
+                <a href="" id = "up"></a>
+                <a href=""></a>
+            </div>
+        </div>
+        <div id = "weixin">
+            <img src="images/hover.jpg" alt="">
+            <div class= "arrow"></div>
+        </div>
+        <div class = "footer">
+                    ©2018 Meizu Telecom Equipment Co., Ltd. All rights reserved.
+                    <a href="">备案号：粤ICP备13003602号</a>
+                    <a href="">经营许可编号:粤B2-20170010 </a>
+                    <a href="">营业执照</a>
+                    <a>
+                        <i>
+                        </i>
+                        粤公网安备 44049102496009 号
+                    </a>
+        </div>
+    </div>
+</body>
+</html>
